@@ -1,8 +1,20 @@
 import random
 
 def initialize_game():
-    player1 = input("Enter name for Player 1: ")
-    player2 = input("Enter name for Player 2: ")
+    while True:
+        player1 = input("Enter name for Player 1: ").strip()
+        player2 = input("Enter name for Player 2: ").strip()
+
+        if not player1 or not player2:
+            print("Player names cannot be empty. Try again.")
+            continue
+
+        if player1 == player2:
+            print("Player names must be different. Try again.")
+            continue
+
+        break
+
     player1_hp = 3
     player2_hp = 3
     return player1, player2, player1_hp, player2_hp

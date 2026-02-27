@@ -6,5 +6,5 @@ The Origin of this game: https://store.steampowered.com/app/2835570/Buckshot_Rou
 
 ### Instructions
 - Run the code.
-- Insert player 1 name, and player 2 name.
+- Insert player 1 name, and player 2 name (must be different).
 - Shoot each other, & enjoy!
